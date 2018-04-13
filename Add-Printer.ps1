@@ -3,7 +3,7 @@ $PrinterDriverName = "Samsung ML-2250 Series"
 $PrinterPortName = "Repeater:"
 $LPRServerAddress = "10.0.7.2"
 $LPRQueueName = "LPRServer"
-$PrinterDriverInfPath = "$PSScriptRoot\..\drivers\Samsung ML-2250\ssgh1.inf"
+$PrinterDriverInfPath = "$PSScriptRoot\drivers\samsung-ml-2250\ssgh1.inf"
 
 # Create LPR port
 Add-PrinterPort -Name "$PrinterPortName" -LprHostAddress "$LPRServerAddress" -LprQueueName "$LPRQueueName"
